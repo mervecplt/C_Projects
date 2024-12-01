@@ -3,8 +3,8 @@
 #define MAX_TRIES 5
 #define PASSWORD 1234
 
-int checkPasswordWithFor();
-int checkPasswordWithWhile();
+//int checkPasswordWithFor();
+//int checkPasswordWithWhile();
 int checkPasswordWithDoWhile();
 
 
@@ -14,8 +14,8 @@ int main()
     int success;
 
     //success = checkPasswordWithFor();
-    //success = checkPasswordWithWhile();
-    success = checkPasswordWithDoWhile();
+      success = checkPasswordWithWhile();
+   // success = checkPasswordWithDoWhile();
 
     if(success) {
         printf("Correct password\n");
@@ -28,7 +28,7 @@ int main()
     return 0;
 }
 
-int checkPasswordWithFor()
+/*int checkPasswordWithFor()
 {
     int i, userPassword;
     for(i=0; i < MAX_TRIES; i++)
@@ -39,7 +39,7 @@ int checkPasswordWithFor()
             return 1;
     }
     return 0;
-}
+}*/
 
 int checkPasswordWithWhile()
 {
@@ -56,7 +56,7 @@ int checkPasswordWithWhile()
 }
 
 
-int checkPasswordWithDoWhile()
+/*int checkPasswordWithDoWhile()
 {
     int i=0, userPassword;
     do
@@ -69,4 +69,4 @@ int checkPasswordWithDoWhile()
     }while(i < MAX_TRIES);
     return 0;
 
-}
+}*/
