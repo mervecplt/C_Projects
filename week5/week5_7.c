@@ -8,9 +8,9 @@ int gcd(int, int);
 int main() {
     int num1, num2;
 
-    printf("Enter the first positive integer: ");
+    printf("Enter the first positive integer:  ");
     scanf("%d", &num1);
-    printf("Enter the second positive integer: ");
+    printf("Enter the second positive integer:  ");
     scanf("%d", &num2);
 
     if (num1 <= 0 || num2 <= 0) {
