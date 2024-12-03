@@ -8,7 +8,7 @@ int main()
 	// sqrt((x1-x2) * (x1-x2) + (y1-y2)*(y1-y2))
 	
 	// vars
-	double x1, x2, y1, y2, distance;
+	double x1,  x2,  y1, y2, distance;
 	
 	
 	printf("enter the coordinates of the first point: ");
