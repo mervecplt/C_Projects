@@ -11,11 +11,11 @@ float getMax(float [], int);
 
 int main(void)
 {
-	float grades[NSTUDENTS];	
+	float  grades[NSTUDENTS];	
 	randomlyFill(grades, NSTUDENTS);
 	printArray(grades, NSTUDENTS);
 	float maximum = getMax(grades, NSTUDENTS);
-	printf("maximum grade %f\n", maximum);
+	printf("maximum grade  %f\n", maximum);
 	return 0;
 
 }
@@ -32,7 +32,7 @@ void randomlyFill(float grades [], int arraySize)
 	}
 }
 
-void printArray(float grades [], int arraySize)
+void printArray(float grades [] , int arraySize)
 {
 	int i;
 	for(i=0; i < arraySize; i++)

@@ -5,8 +5,8 @@
 
 void drawTriangle(int, char);
 void drawTrianglev2(int, char);
-void drawSquare(int, char);
-void drawTrianglev3(int, char);
+void drawSquare(int,  char);
+void drawTrianglev3(int,  char);
 
 int main(void)
 {

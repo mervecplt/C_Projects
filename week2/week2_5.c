@@ -20,9 +20,9 @@ int main()
 	printf("enter the coordinates of the second point: ");
 	scanf("%lf%lf", &x2, &y2);
 	
-	distance = calculateDistance(x1, y1, x2, y2);	
+	distance = calculateDistance(x1, y1,  x2,  y2);	
 	
-	printf("Distance between (%.2lf, %.2lf) and (%.2lf, %.2lf) is %.2lf\n",x1, y1, x2, y2, distance);
+	printf("Distance between (%.2lf, %.2lf) and (%.2lf , %.2lf) is %.2lf\n",x1, y1, x2, y2, distance);
 	
 	printf("enter the coordinates of the first point: ");
 	scanf("%lf%lf", &x1, &y1);

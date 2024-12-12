@@ -12,7 +12,7 @@ int main()
 	temp = fBox;
 	fBox = sBox;
 	sBox = temp;
-	printf("after swapping fBox %d sBox %d\n", fBox, sBox);
+	printf("after swapping fBox %d sBox  %d\n", fBox , sBox);
 	
 	return 0;
 }
