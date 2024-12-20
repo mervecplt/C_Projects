@@ -18,9 +18,9 @@ int main(void)
 	char y [] = {'m', 'u', 'r', 'a', 't', '\0'};
 	//printf("%s", y);
 	
-	for(int i = 0; i < 10; i++)
+	for(int i = 0; i  < 10; i++)
 	{
-		x[i] = 'X';
+		x[i] =  'X';
 	}
 	printf("z=%d", z);
 	return 0;

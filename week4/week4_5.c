@@ -6,7 +6,7 @@ int main(void)
 {
 	float pH;
 	printf("enter a val: ");
-	scanf("%f", &pH);
+	scanf("%f" , &pH);
 	
 	reportPH(pH);
 	

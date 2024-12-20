@@ -16,7 +16,7 @@ void printDiamondPattern(char str[]) {
     int length = strlen(str);
     if (length % 2 == 0)
     {
-        printf("your string length must be an odd number\n");
+        printf("your string  length must be an odd number\n");
         return;
     }
     int upperTriangleLength, lowerTriangleLength;

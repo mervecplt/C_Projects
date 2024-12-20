@@ -33,7 +33,7 @@ void printEvenNumsFor(int n)
 	{
 		// loop body
 		if(i % 2 == 0)
-			printf("%d,", i);	
+			printf("%d ", i);	
 	}
 }
 
@@ -43,7 +43,7 @@ void printEvenNumsWhile(int n)
 	
 	i = 1;// Initialize the counter variable
 	// The while loop keeps executing as long as the condition is true
-	while(i<n)
+	while(i < n)
 	{
 		// loop body
 		if(i%2==0)

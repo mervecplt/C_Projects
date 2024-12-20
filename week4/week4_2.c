@@ -6,12 +6,12 @@ int absValueTernary(int);
 int main(void)
 {
 	int val;
-	printf("enter val: ");
+	printf("enter  val: ");
 	scanf("%d", &val);
 	printf("with if conditions of %d is %d\n", val, absValue(val));
 	printf("with ternary of %d is %d\n", val, absValue(val));
 	
-	return 0;
+	return  0;
 }
 
 int absValue(int val)
