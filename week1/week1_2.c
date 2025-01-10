@@ -15,10 +15,10 @@ int main()
 		
 			or even come here type whatever you want 
 		
-		any comment you put after // or  /* will be ignored by the compiler 
+		any comment  you put after // or  /* will be ignored by the compiler 
 
 		
-		any code you typed here will be skipped too.
+		any code you  typed here will be skipped too.
 		printf("hello world!");
 	
 	the below ends the multi-line comments

@@ -9,7 +9,7 @@ struct Guest {
 };
 
 
-void getGuestCount(int *);
+void getGuestCount(int  *);
 void getGuestNames(struct Guest *, int) ;
 void getRSVPs(struct Guest *, int);
 int findGuestByName(struct Guest *, char *, int);

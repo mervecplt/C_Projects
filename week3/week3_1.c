@@ -10,7 +10,7 @@ int main(void)
 	scanf("%d", &num1);
 	printf("enter num2 ");
 	scanf("%d", &num2);
-	// call the function to calculate the max
+	// call the  function to calculate the max
 	int maxNumber = getMax(num1, num2);
 	printf("%d is the largest among %d and %d\n",maxNumber, num1, num2);
 	
