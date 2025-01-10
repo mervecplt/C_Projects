@@ -57,6 +57,7 @@ int addContact (struct Contact addressBook[], int contactCount)
     if(contactCount<100)
     {
         struct Contact newContact;
+
         printf("Enter first Name:");
         scanf("%s",newContact.firstName);
         printf("Enter last Name:");
@@ -86,7 +87,7 @@ void displayContacts (struct Contact addressBook[], int contactCount)
     for(int i=0; i<contactCount; i++)
     {
         printf("%-15s %-15s %-15s %-30s",
-               addressBook[i].fistName,
+               addressBook[i].firstName,
                addressBook[i].lastName,
                addressBook[i].phoneNumber,
                addressBook[i].emailAddress);
