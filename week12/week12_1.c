@@ -3,7 +3,7 @@
 #include <time.h>
 
 // we will use F for flag 1 for player1 and 2 for player2 on the board.
-#define FLAG 'F'
+#define FLAG  'F' 
 #define PLAYER1 '1'
 #define PLAYER2 '2'
 
