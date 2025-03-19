@@ -55,7 +55,7 @@ int binarySearch(int array[], int size, int target)
     int i;
     int min = 0 , max = size - 1; 
    int mid = min + (min - max)/2;
-    while(i<size){
+    while(min <= max){
         if(array[i] < target){
             max = mid - 1;
         }
