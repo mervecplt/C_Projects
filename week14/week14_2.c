@@ -13,6 +13,24 @@ int linearSearch(int [], int, int);
 
 int main(void)
 {
+    int  array[ARR_SIZE];
+	int min , max;
+
+	generateRandomSortedArray(array, size, &min, &max);
+
+    printf("ilk 20 değer girin");
+	printArray(array,20);
+
+	binarySearch(array, size, target){
+
+		int targetBinary = 5000;
+    int binaryResult = binarySearch(array, ARR_SIZE, targetBinary);
+    if (binaryResult != -1)
+        printf("Binary Search: Found %d at index %d\n", targetBinary, binaryResult);
+    else
+        printf("Binary Search: %d not found\n", targetBinary);
+
+	}
 
 }
 
@@ -52,18 +70,23 @@ void printArray(int array[], int size)
 
 int binarySearch(int array[], int size, int target)
 {
-    int i;
+    
     int min = 0 , max = size - 1; 
-   int mid = min + (min - max)/2;
+   
     while(min <= max){
-        if(array[i] < target){
-            max = mid - 1;
+
+		int mid = min + (min - max)/2;
+
+        if(array[mid] == target){
+            return mid;
         }
-        else if(array[i] > target){
-            min = mid + 1;
+        if(array[mid] > target){
+            max = mid -1;
         }
         else{
-            return i;
+           
+			min = mid + 1;
+
         }
     }
     return -1;
